@@ -1,6 +1,6 @@
 <?php
 
-function maxProfit(array $pricesAndPurchases)
+function maxProfit(array $pricesAndPurchases):int
 {
     //function to find highest price in input array
     function maxPrice (array $array):int
